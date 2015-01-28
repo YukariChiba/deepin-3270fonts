@@ -1,0 +1,5 @@
+3270font (1.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #776449)
+
+ -- Adam Borowski <kilobyte@angband.pl>  Thu, 29 Jan 2015 02:55:49 +0100
