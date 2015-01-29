@@ -6,8 +6,8 @@ Uploaders: Adam Borowski <kilobyte@angband.pl>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.6
 Homepage: https://github.com/rbanffy/3270font
-#Vcs-Git: git://anonscm.debian.org/collab-maint/3270font.git
-#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/3270font.git;a=summary
+Vcs-Git: https://github.com/kilobyte/3270font.git -b debian
+Vcs-Browser: https://github.com/kilobyte/3270font/tree/debian
 
 Package: fonts-3270
 Architecture: all
