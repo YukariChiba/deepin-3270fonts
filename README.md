@@ -12,8 +12,8 @@ from a 3270 terminal. I built it because I felt terminals deserve to be
 pretty. The .sfd font file contains a x3270 bitmap font that was used
 for guidance.
 
-![Using with the Cathode terminal program]
-(https://raw.githubusercontent.com/wiki/rbanffy/3270font/cathode.png)
+![Using with the cool-old-tern (now cool-retro-term) terminal program]
+(https://raw.githubusercontent.com/wiki/rbanffy/3270font/cool-retro-term.png)
 
 The format
 ----------
@@ -29,8 +29,8 @@ tutorials.
 (https://raw.githubusercontent.com/wiki/rbanffy/3270font/powerline.png)
 
 Adobe Type 1, TTF, OTF and WOFF versions are available for download on
-http://s3.amazonaws.com/rbanffy/3270_fonts.zip for those who would just
-like to use them.
+http://s3.amazonaws.com/rbanffy/3270_fonts_fffceb4.zip for those who
+would just like to use them.
 
 ![Using it on OSX]
 (https://raw.githubusercontent.com/wiki/rbanffy/3270font/osx_terminal.png)
@@ -69,4 +69,15 @@ Known problems
 --------------
 
 I have received errors when installing the OTF, TTF, and PFM fonts on
-Windows 7 and 8 (didn't try others).
+Windows 7 and 8 (didn't try others). A friend managed to generate TTF
+files for both versions from the compiled TTF files and they can be
+downloaded from
+https://s3.amazonaws.com/rbanffy/3270_fonts_windows.zip. I'll continue
+investigating the issue so that we can generate Windows-compatible fonts
+directly.
+
+Not all symbols in the 3270 charset have Unicode counterparts. When
+possible, they are duplicated in the Unicode space. The 3270-only
+symbols are at the end of the font.
+
+Please refer to http://x3270.bgp.nu/Charset.html for a complete map.
