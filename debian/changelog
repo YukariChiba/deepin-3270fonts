@@ -1,8 +1,9 @@
 3270font (1.2.6-1) unstable; urgency=medium
 
   * New upstream release.
+  * Run fontlint during build, as upstream makefile does.
 
- -- Adam Borowski <kilobyte@angband.pl>  Tue, 22 Dec 2015 20:56:51 +0100
+ -- Adam Borowski <kilobyte@angband.pl>  Tue, 22 Dec 2015 21:09:08 +0100
 
 3270font (1.2.5-1) unstable; urgency=medium
 
