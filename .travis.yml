@@ -1,0 +1,6 @@
+addons:
+  apt:
+    packages:
+    - fontforge
+sudo: false
+script: "make test"
