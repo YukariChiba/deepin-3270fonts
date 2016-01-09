@@ -1,3 +1,10 @@
+3270font (1.2.9-1) unstable; urgency=medium
+
+  * New upstream release.
+    + It includes the Debian logo at U+F100.
+
+ -- Adam Borowski <kilobyte@angband.pl>  Sat, 09 Jan 2016 04:36:46 +0100
+
 3270font (1.2.8-1) unstable; urgency=medium
 
   * New upstream release.
