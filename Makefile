@@ -16,19 +16,28 @@ help:
 	@echo "  clean      Deletes all automatically generated files."
 
 install: all
-	@cp 3270Narrow.otf 3270Medium.otf ~/.local/share/fonts
+	@install -d ~/.local/share/fonts
+	@install 3270Narrow.otf 3270Medium.otf ~/.local/share/fonts
 
 uninstall:
 	@$(RM) ~/.local/share/fonts/3270Narrow.otf ~/.local/share/fonts/3270Medium.otf
 
 zip: all
-	@zip 3270_fonts_$(shell git rev-parse --short HEAD).zip 3270Medium.* 3270Narrow.*
+	@zip 3270_fonts_$(shell git rev-parse --short HEAD).zip 3270Medium.* 3270SemiNarrow.* 3270Narrow.*
 
 test: all
 	fontlint 3270Medium.otf
 	fontlint 3270Medium.pfm
 	fontlint 3270Medium.ttf
 	fontlint 3270Medium.woff
+	fontlint 3270SemiNarrow.otf
+	fontlint 3270SemiNarrow.ttf
+	fontlint 3270SemiNarrow.pfm
+	fontlint 3270SemiNarrow.woff
+	fontlint 3270Narrow.otf
+	fontlint 3270Narrow.ttf
+	fontlint 3270Narrow.pfm
+	fontlint 3270Narrow.woff
 
 fulltest: zip test
 	@zip -T 3270_fonts_*.zip

@@ -1,3 +1,18 @@
+v1.2.11
+-------
+- Add missing dotted Irish alphabet chars
+- Add shorter f and t for easier accent composition
+- Use wider traces for ✎
+- Added a SemiNarrow variant 492 units wide
+
+v1.2.10
+-------
+- Small fixes to a and e
+- Remove StdHW and StemSnapH PostScript private dicts
+- Redo and simplify 0-9, maybe fix #6
+- Added a lambda, ⬇, ⬇, ✔, ✼, ✎, u1F394 and uni21AF
+- Adjustments to <U+2753>, ?, | and ¦
+
 v1.2.9
 ------
 - No longer remove Debian logo on font generation
