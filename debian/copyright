@@ -3,7 +3,7 @@ Upstream-Name: 3270font
 Source: https://github.com/rbanffy/3270font
 
 Files: *
-Copyright: 2011-2012, Ricardo Banffy.
+Copyright: 2011-2016, Ricardo Banffy.
            1993-2011, Paul Mattes.
            2004-2005, Don Russell.
            2004, Dick Altenbern.
@@ -47,7 +47,7 @@ License: BSD3
  Commons Attribution-ShareAlike 3.0 Unported License.
 
 Files: debian/*
-Copyright: 2015 Adam Borowski <kilobyte@angband.pl>
+Copyright: 2015-2016 Adam Borowski <kilobyte@angband.pl>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
