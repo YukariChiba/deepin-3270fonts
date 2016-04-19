@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
 Uploaders: Adam Borowski <kilobyte@angband.pl>
 Build-Depends: debhelper (>= 9), fontforge-nox | fontforge
-Standards-Version: 3.9.7
+Standards-Version: 3.9.8
 Homepage: https://github.com/rbanffy/3270font
 Vcs-Git: https://github.com/kilobyte/3270font.git -b debian
 Vcs-Browser: https://github.com/kilobyte/3270font/tree/debian
