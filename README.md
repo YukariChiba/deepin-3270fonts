@@ -8,11 +8,11 @@
 A little bit of history
 -----------------------
 
-This font is derived from the x3270 font, which, in turn, was translated
-from the one in Georgia Tech's 3270tool, which was itself hand-copied
-from a 3270 terminal. I built it because I felt terminals deserve to be
-pretty. The .sfd font file contains a x3270 bitmap font that was used
-for guidance.
+This font is derived from the x3270 font, which, in turn, was
+translated from the one in Georgia Tech's 3270tool, which was itself
+hand-copied from a 3270 series terminal. I built it because I felt
+terminals deserve to be pretty. The .sfd font file contains a x3270
+bitmap font that was used for guidance.
 
 ![Using with the cool-old-tern (now cool-retro-term) terminal program]
 (https://raw.githubusercontent.com/wiki/rbanffy/3270font/cool-retro-term.png)
@@ -29,7 +29,7 @@ packaged version may not be the latest version, but it's good enough for
 most purposes. For those who don't have the luxury of a proper
 system-managed package, Adobe Type 1, TTF, OTF and WOFF versions are
 available for download on
-http://s3.amazonaws.com/rbanffy/3270_fonts_0349889.zip (although this
+http://s3.amazonaws.com/3270font/3270_fonts_d004266.zip (although this
 URL may not always reflect the latest version).
 
 The format
@@ -98,6 +98,7 @@ Known problems
 
 Not all symbols in the 3270 charset have Unicode counterparts. When
 possible, they are duplicated in the Unicode space. The 3270-only
-symbols are at the end of the font.
+symbols are at the end of the font, along with some glyphs useful for
+building others.
 
 Please refer to http://x3270.bgp.nu/Charset.html for a complete map.

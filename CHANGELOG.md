@@ -1,3 +1,20 @@
+v1.2.15
+-------
+
+- Added ⏻, ⏼, ⭘, ⏽, ⏾ and ⯒
+- Added Ў, ў, Џ, џ, Ћ and ћ
+- Added Ž, ž, Ơ, Ư, ơ, ư, Š, š, Э, э, ё, м, щ and ы
+- Fixed u
+- Made ‘ and ’ more distinctive
+- Added 'upload' target to Makefile
+- Added К, Л, М, Н, О, П, Р, С, Т, У, Ф, Х, Ц, Ш, Щ, Ь, Ю, Я, Ч, Ъ, Ы,
+  а, б, в, г, д
+- Added ▶, ✱, ❯, ◼
+- Added А, Б, В, Г, Д, Е, Ж, З, И and Й
+- Added ✓
+- Added Ǝ, и and ˚
+- Added ✖ glyph
+
 v1.2.14
 -------
 - Added ⚓ glyph
