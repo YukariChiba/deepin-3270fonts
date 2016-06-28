@@ -29,8 +29,11 @@ packaged version may not be the latest version, but it's good enough for
 most purposes. For those who don't have the luxury of a proper
 system-managed package, Adobe Type 1, TTF, OTF and WOFF versions are
 available for download on
-http://s3.amazonaws.com/3270font/3270_fonts_d004266.zip (although this
+http://s3.amazonaws.com/3270font/3270_fonts_0608bf3.zip (although this
 URL may not always reflect the latest version).
+
+![ASCII is so 60's]
+(https://raw.githubusercontent.com/wiki/rbanffy/3270font/cyrillic.png)
 
 The format
 ----------
@@ -67,6 +70,9 @@ PostScript, OTF, TTF and WOFF versions of the base font, as well as a
 slightly more condensed .sfd file with the base font narrowed to 488
 units, with no glyph rescaling (or cropping - we need to fix that) and
 its corresponding PostScript, TTF, OTF and WOFF versions.
+
+![For your favorite editor]
+(https://raw.githubusercontent.com/wiki/rbanffy/3270font/symbols.png)
 
 Contributing
 ------------
