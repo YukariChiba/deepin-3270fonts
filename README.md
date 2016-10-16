@@ -5,6 +5,8 @@
 
 ![Screenshot](https://raw.githubusercontent.com/wiki/rbanffy/3270font/emacs.png)
 
+![Sample](https://raw.githubusercontent.com/wiki/rbanffy/3270font/3270Medium_sample.png)
+
 A little bit of history
 -----------------------
 
@@ -29,7 +31,7 @@ packaged version may not be the latest version, but it's good enough for
 most purposes. For those who don't have the luxury of a proper
 system-managed package, Adobe Type 1, TTF, OTF and WOFF versions are
 available for download on
-http://s3.amazonaws.com/3270font/3270_fonts_4e92905.zip (although this
+http://s3.amazonaws.com/3270font/3270_fonts_f9afe95.zip (although this
 URL may not always reflect the latest version).
 
 ![ASCII is so 60's]
@@ -86,18 +88,6 @@ changes, reencode it in "Unicode, Full", compact it and validate
 it. Check if the `git diff` command gives out something sensible (does
 not change things you didn't intend to) and make a pull request. If, in
 doubt, get in touch and we will figure out how to do it right.
-
-Preserving history
-------------------
-
-I regard the evolution of electronic computing a very important part of
-our civilization's history. Consider donating to entities that help
-preserve it, such as the Computer History Museum
-(http://www.computerhistory.org/), the IT History Society
-(http://ithistory.org/) and many others around the world. If you have a
-historically significant piece of technology in your closet or garage,
-consider contacting a local technology or industrial-design-oriented
-museum for advice.
 
 Known problems
 --------------
