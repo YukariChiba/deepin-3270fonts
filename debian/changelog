@@ -1,3 +1,12 @@
+3270font (1.2.18-1) unstable; urgency=medium
+
+  * New upstream release.  Adds Greek and all of WGL-4!
+  * Work around upstream Makefile wanting to build a sample image.
+  * Don't test non-OTF files (PFMs have a fatal error with new fontforge,
+    but we don't install those anyway).
+
+ -- Adam Borowski <kilobyte@angband.pl>  Sun, 16 Oct 2016 04:17:52 +0200
+
 3270font (1.2.17-1) unstable; urgency=medium
 
   * New upstream release.
