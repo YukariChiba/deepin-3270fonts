@@ -1,3 +1,10 @@
+v.1.2.19
+--------
+
+- Added normal "⸨" and "⸩", full-width "｟" and "｠", ❮, ♡, ♢, ♤, ♧, ♁,
+  ⅐, ⅑, ⅒, ⅓, ⅔, ⅕, ⅖, ⅗, ⅘, ⅙, ⅚
+- Fixed "⌚", "w", "4", "6"
+
 v.1.2.18
 --------
 - Improved sample image generation (rendering can be now tested!)

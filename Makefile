@@ -10,15 +10,17 @@ endif
 
 .SUFFIXES:
 
-all: fonts sample
+all: derived sample
 
-fonts: 3270Medium_HQ.sfd
+derived: 3270Medium_HQ.sfd
 	@./generate_derived.pe
+
+sample: derived 
+	@./generate_sample_image.py
 
 help:
 	@echo "Please use \`make <target>' where <target> is one of:"
 	@echo "  all        Generates the TrueType, OpenType, Type-1, WebFont files and sample image."
-	@echo "  fonts      Generates all font files."
 	@echo "  install    Copies the generated OTF fonts into the system-appropriate folder (Ubuntu, Fedora, OSX)."
 	@echo "  uninstall  Uninstalls the generated OTF fonts."
 	@echo "  zip        Creates the ZIP archive to be sent to S3 (the 'binary build')."
@@ -29,23 +31,29 @@ help:
 	@echo "  clean      Deletes all automatically generated files."
 	@echo "  help       Displays this message."
 
-install: fonts
+install: derived
 	@install -d $(DESTFOLDER)
 	@install 3270Narrow.otf 3270Medium.otf 3270SemiNarrow.otf $(DESTFOLDER)
 
 uninstall:
 	@$(RM) $(DESTFOLDER)/3270Narrow.otf $(DESTFOLDER)/3270Medium.otf $(DESTFOLDER)/3270SemiNarrow.otf
 
-zip: fonts
+zip: all
 	@zip 3270_fonts_$(shell git rev-parse --short HEAD).zip 3270Medium.* 3270SemiNarrow.* 3270Narrow.*
 
-sample: fonts
-	@python generate_sample_image.py
-
-test: fonts
+test: all
 	@fontlint 3270Medium.otf
+	@fontlint 3270Medium.pfm
+	@fontlint 3270Medium.ttf
+	@fontlint 3270Medium.woff
 	@fontlint 3270SemiNarrow.otf
+	@fontlint 3270SemiNarrow.ttf
+	@fontlint 3270SemiNarrow.pfm
+	@fontlint 3270SemiNarrow.woff
 	@fontlint 3270Narrow.otf
+	@fontlint 3270Narrow.ttf
+	@fontlint 3270Narrow.pfm
+	@fontlint 3270Narrow.woff
 
 fulltest: zip test
 	@zip -T 3270_fonts_*.zip
