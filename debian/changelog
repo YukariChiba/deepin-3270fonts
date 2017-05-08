@@ -1,3 +1,10 @@
+3270font (1.2.22-1) experimental; urgency=medium
+
+  * New upstream release.
+  * License change: it's now BSD3|SIL.
+
+ -- Adam Borowski <kilobyte@angband.pl>  Tue, 09 May 2017 01:05:18 +0200
+
 3270font (1.2.21-1) experimental; urgency=medium
 
   * New upstream release.
