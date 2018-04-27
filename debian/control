@@ -1,7 +1,7 @@
 Source: 3270font
 Section: fonts
 Priority: optional
-Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Maintainer: Debian Fonts Task Force <debian-fonts@lists.debian.org>
 Uploaders: Adam Borowski <kilobyte@angband.pl>
 Build-Depends: debhelper (>= 11~), fontforge-nox | fontforge
 Standards-Version: 4.1.4
