@@ -1,6 +1,7 @@
 3270font (2.0.1-1) experimental; urgency=medium
 
   * New upstream release.
+  * Install appstream metadata.
 
  -- Adam Borowski <kilobyte@angband.pl>  Mon, 20 May 2019 00:25:07 +0200
 

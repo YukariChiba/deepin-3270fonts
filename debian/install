@@ -1,1 +1,2 @@
 build/*.otf usr/share/fonts/opentype/3270/
+*.metainfo.xml usr/share/metainfo/
