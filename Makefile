@@ -40,10 +40,10 @@ help:
 
 install: derived
 	@install -d $(DESTFOLDER)
-	@install ${BUILD_DIR}/3270Narrow.otf ${BUILD_DIR}/3270Medium.otf ${BUILD_DIR}/3270SemiNarrow.otf $(DESTFOLDER)
+	@install ${BUILD_DIR}/3270Narrow.ttf ${BUILD_DIR}/3270Medium.ttf ${BUILD_DIR}/3270SemiNarrow.ttf $(DESTFOLDER)
 
 uninstall:
-	@$(RM) $(DESTFOLDER)/3270Narrow.otf $(DESTFOLDER)/3270Medium.otf $(DESTFOLDER)/3270SemiNarrow.otf
+	@$(RM) $(DESTFOLDER)/3270Narrow.ttf $(DESTFOLDER)/3270Medium.ttf $(DESTFOLDER)/3270SemiNarrow.ttf
 
 zip: derived
 	@zip -j ${BUILD_DIR}/3270_fonts_$(shell git rev-parse --short HEAD).zip ${BUILD_DIR}/3270Medium.* ${BUILD_DIR}/3270SemiNarrow.* ${BUILD_DIR}/3270Narrow.* LICENSE.txt fonts-3270.metainfo.xml
@@ -68,7 +68,7 @@ travistest: zip skimpytest
 
 fulltest: zip test
 	@zip -T ${BUILD_DIR}/3270_fonts_*.zip
-	@wget --spider $(shell grep -Eo 'http://s3.amazonaws.com/3270font/3270_fonts_[^/"]+\.zip' README.md)
+	@wget --spider $(shell grep -Eo 'https://3270font.s3.amazonaws.com/3270_fonts_[^/"]+\.zip' README.md)
 
 upload: zip
 	aws s3 cp ${BUILD_DIR}/3270_fonts_$(shell git rev-parse --short HEAD).zip s3://3270font/ --acl public-read --storage-class REDUCED_REDUNDANCY

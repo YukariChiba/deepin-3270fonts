@@ -1,3 +1,19 @@
+v.2.0.2
+-------
+
+- Add ★, ⚑, ✚
+- Instal .ttf files by default
+- Set grid fit and anti-alias to all sizes
+- Added SIL license to the font file
+- Adjusted font name, family name and derived font names
+- Force width to 540 units when building derived fonts
+- Set ΤεΧ space to 540 (normal glyph width)
+- Set Italic Angle to 0
+- Set OS/2 Style Map to Regular
+- Update copyright notice
+- Sorted symbols in the SFD file
+- Set version to 2.0.2 (next release)
+
 v.2.0.1
 -------
 
