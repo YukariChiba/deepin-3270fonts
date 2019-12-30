@@ -1,3 +1,17 @@
+v.2.0.3
+-------
+
+- Skipping FontBakery tests on TravisCI for now
+- Makefile now defaults to `help` target instead of `font`
+- Build script and Makefile fixes
+- Glyph simplification and composition improvements
+- Adjust unitsPerEm to 2000, update `generate_derived.pe`
+- Added correct foundry identifier (3270)
+- Renamed base font
+- Added ⁴, −
+- Removed slots below 0x1f
+- Set version to 2.0.3 (next release)
+
 v.2.0.2
 -------
 
