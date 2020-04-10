@@ -3,9 +3,10 @@
 
 ![Travis-CI](https://api.travis-ci.org/rbanffy/3270font.svg)
 
-![Screenshot](https://raw.githubusercontent.com/wiki/rbanffy/3270font/emacs.png)
+![Screenshot](
+https://raw.githubusercontent.com/wiki/rbanffy/3270font/emacs.png)
 
-![Sample](https://raw.githubusercontent.com/wiki/rbanffy/3270font/3270Medium_sample.png)
+![Sample](https://3270font.s3.amazonaws.com/3270_sample.png)
 
 A little bit of history
 -----------------------
@@ -26,9 +27,9 @@ If you are running Debian or Ubuntu and you don't want to mess with
 building your font files, you can simply `apt-get install fonts-3270`
 (It's available from the Debian
 (https://packages.debian.org/sid/fonts/fonts-3270) and Ubuntu
-(http://packages.ubuntu.com/zesty/fonts-3270) package repos at
+(http://packages.ubuntu.com/focal/fonts-3270) package repos at
 https://packages.debian.org/sid/fonts/fonts-3270 and
-https://packages.ubuntu.com/xenial/fonts/fonts-3270, although the
+https://packages.ubuntu.com/focal/fonts/fonts-3270, although the
 packaged version may not be the latest version, but it's good enough for
 most purposes.
 
@@ -36,7 +37,7 @@ On FreeBSD the font can be installed with `pkg install 3270font`.
 
 For those who don't have the luxury of a proper system-managed package,
 Adobe Type 1, TTF, OTF and WOFF versions are available for download on
-https://3270font.s3.amazonaws.com/3270_fonts_2851f93.zip (although this
+https://3270font.s3.amazonaws.com/3270_fonts_7fe801c.zip (although this
 URL may not always reflect the latest version).
 
 ![ASCII is so 60's](
@@ -51,9 +52,6 @@ systems, you can simply `apt-get install fontforge`, `yum install
 fontforge` or even `port install fontforge`. On others, you may need to
 grab your copy from https://fontforge.org/. I encourage you to drop by
 and read the tutorials.
-
-![Powerline-shell compatible!](
-https://raw.githubusercontent.com/wiki/rbanffy/3270font/powerline.png)
 
 ![Using it on OSX (don't forget to turn antialiasing on)](
 https://raw.githubusercontent.com/wiki/rbanffy/3270font/osx_terminal.png)
@@ -95,6 +93,18 @@ touch and we will figure out how to do it right.
 In order to generate the sample image and the grids for FontForge,
 you'll need a Python 3 environment with PIL or pillow installed. The
 requirements.txt file lists everything you need to do it.
+
+Screenshots
+-----------
+
+![xterm](https://3270font.s3.amazonaws.com/xterm.png)
+
+![Gnome Terminal](
+https://3270font.s3.amazonaws.com/gnome-terminal.png)
+
+![Konsole](https://3270font.s3.amazonaws.com/konsole.png)
+
+![Terminator](https://3270font.s3.amazonaws.com/terminator.png)
 
 Known problems
 --------------
