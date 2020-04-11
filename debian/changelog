@@ -1,3 +1,11 @@
+3270font (2.0.4-1) unstable; urgency=medium
+
+  * New major upstream release, disguised as a point one.  Adds an imperial
+    buttload of Unicode 13 drawing characters.
+  * Give up wrt upstream tests, run fontlint ourselves.
+
+ -- Adam Borowski <kilobyte@angband.pl>  Sat, 11 Apr 2020 15:02:19 +0200
+
 3270font (2.0.3-1) unstable; urgency=medium
 
   * New upstream release.
