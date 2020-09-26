@@ -37,7 +37,7 @@ On FreeBSD the font can be installed with `pkg install 3270font`.
 
 For those who don't have the luxury of a proper system-managed package,
 Adobe Type 1, TTF, OTF and WOFF versions are available for download on
-https://3270font.s3.amazonaws.com/3270_fonts_7fe801c.zip (although this
+https://3270font.s3.amazonaws.com/3270_fonts_fba25eb.zip (although this
 URL may not always reflect the latest version).
 
 ![ASCII is so 60's](
@@ -56,12 +56,12 @@ and read the tutorials.
 ![Using it on OSX (don't forget to turn antialiasing on)](
 https://raw.githubusercontent.com/wiki/rbanffy/3270font/osx_terminal.png)
 
-If you are running Windows, you'll probably need something like
-Cygwin, but, in the end, the font works correctly (with some very
-minor hinting issues).
+If you are running Windows, you'll probably need something like WSL or
+Cygwin, but, in the end, the font works correctly (with some very minor
+hinting issues).
 
 ![Works on Windows](
-https://raw.githubusercontent.com/wiki/rbanffy/3270font/windows_7.png)
+https://raw.githubusercontent.com/wiki/rbanffy/3270font/windows_10.png)
 
 Generating usable font files
 ----------------------------
