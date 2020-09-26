@@ -1,3 +1,9 @@
+3270font (2.1.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Adam Borowski <kilobyte@angband.pl>  Sun, 27 Sep 2020 01:00:44 +0200
+
 3270font (2.0.4-1) unstable; urgency=medium
 
   * New major upstream release, disguised as a point one.  Adds an imperial
