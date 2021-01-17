@@ -3,8 +3,8 @@ Section: fonts
 Priority: optional
 Maintainer: Debian Fonts Task Force <debian-fonts@lists.debian.org>
 Uploaders: Adam Borowski <kilobyte@angband.pl>
-Build-Depends: debhelper-compat (=12), fontforge-nox | fontforge
-Standards-Version: 4.5.0
+Build-Depends: debhelper-compat (=13), fontforge-nox | fontforge
+Standards-Version: 4.5.1
 Rules-Requires-Root: no
 Homepage: https://github.com/rbanffy/3270font
 Vcs-Git: https://github.com/kilobyte/3270font.git -b debian
