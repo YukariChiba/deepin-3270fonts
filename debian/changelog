@@ -1,3 +1,11 @@
+3270font (2.2.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * dh 13.
+  * Bump watch file version to 4, no changes.
+
+ -- Adam Borowski <kilobyte@angband.pl>  Sun, 17 Jan 2021 20:15:11 +0100
+
 3270font (2.1.0-1) unstable; urgency=medium
 
   * New upstream release.
