@@ -1,3 +1,9 @@
+3270font (2.3.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Adam Borowski <kilobyte@angband.pl>  Fri, 08 Oct 2021 22:30:33 +0200
+
 3270font (2.3.0-2) unstable; urgency=medium
 
   * Upload to unstable.
