@@ -1,3 +1,10 @@
+3270font (2.3.1-2) unstable; urgency=medium
+
+  * Ignore two fontlint warnings (intersecting glyph, points at extrema).
+    Closes: #1013548.
+
+ -- Adam Borowski <kilobyte@angband.pl>  Sun, 26 Jun 2022 23:48:14 +0200
+
 3270font (2.3.1-1) unstable; urgency=medium
 
   * New upstream release.
