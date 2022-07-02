@@ -1,3 +1,10 @@
+3270font (3.0.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Don't run fontlint during build for now...
+
+ -- Adam Borowski <kilobyte@angband.pl>  Sat, 02 Jul 2022 02:19:39 +0200
+
 3270font (2.3.1-2) unstable; urgency=medium
 
   * Ignore two fontlint warnings (intersecting glyph, points at extrema).
