@@ -1,2 +1,2 @@
-build/*.otf usr/share/fonts/opentype/3270/
+build/*.ttf usr/share/fonts/truetype/3270/
 *.metainfo.xml usr/share/metainfo/

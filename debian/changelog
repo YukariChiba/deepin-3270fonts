@@ -1,3 +1,9 @@
+3270font (3.0.0-2) unstable; urgency=medium
+
+  * Install TTF not OTF, the latter produces uneven glyphs somehow.
+
+ -- Adam Borowski <kilobyte@angband.pl>  Fri, 08 Jul 2022 07:49:53 +0200
+
 3270font (3.0.0-1) unstable; urgency=medium
 
   * New upstream release.
