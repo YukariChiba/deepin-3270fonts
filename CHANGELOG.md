@@ -1,3 +1,11 @@
+## v3.0.1
+
+- Remove redundant tests in Makefile
+- Replace deprecated Resampling.NEAREST with Image.Dither.NONE
+- Fixes to ∄, dec_vt, 𝗞, ¶, £, ¢
+- Simplify /, 𝟠, ➥, ➦
+- Set version to 3.0.1
+
 ## v3.0.0
 
 - Set version to 3.0.0 because font metrics changed
